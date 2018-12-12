@@ -31,4 +31,5 @@
     <string name="financial_aid">Financial Aid</string>
     <string name="title_activity_login">Sign in</string>
     <string name="title_activity_cal">Cal</string>
+    <string name="title_activity_post_grad">PostGrad</string>
 </resources>
