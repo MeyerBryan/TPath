@@ -11,6 +11,7 @@ class Checklist : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_checklist)
+
         Aidpage.setOnClickListener{
             val intent = Intent(this, Aid::class.java)
             startActivity(intent)
