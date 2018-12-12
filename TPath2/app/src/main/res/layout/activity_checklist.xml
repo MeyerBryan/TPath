@@ -158,12 +158,6 @@
                     app:fontFamily="@font/carter_one" android:textSize="24sp" android:gravity="center"
                     android:background="@color/colorheader" android:visibility="visible"
                     android:text="@string/year_1_eductional_plan"/>
-            <View
-                    android:id="@+id/divider4"
-                    android:layout_width="match_parent"
-                    android:layout_height="5dp"
-
-                    android:visibility="visible" android:background="@color/colorPrimary"/>
             <TableLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
