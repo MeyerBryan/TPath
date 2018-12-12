@@ -14,7 +14,8 @@
     <!-- Login progress -->
     <ImageView
             android:layout_width="350dp"
-            android:layout_height="328dp" app:srcCompat="@drawable/logo" android:id="@+id/imageView"/>
+            android:layout_height="328dp" app:srcCompat="@drawable/logo" android:id="@+id/imageView"
+            android:contentDescription="TODO"/>
     <ProgressBar
             android:id="@+id/login_progress"
             style="?android:attr/progressBarStyleLarge"
@@ -63,7 +64,7 @@
                         android:imeOptions="actionUnspecified"
                         android:inputType="textPassword"
                         android:maxLines="1"
-                        android:singleLine="true"/>
+                        android:singleLine="true" android:importantForAutofill="no"/>
 
             </android.support.design.widget.TextInputLayout>
 
