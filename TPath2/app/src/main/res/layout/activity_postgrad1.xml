@@ -29,18 +29,18 @@
             android:text="@string/aid"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/Aidpage"
+            android:id="@+id/Aidpageback"
             app:layout_constraintTop_toTopOf="@+id/toolbar" app:layout_constraintBottom_toBottomOf="@+id/toolbar"
             android:background="@color/colorPrimaryDark" android:textColor="@color/colorAccent"
             app:layout_constraintVertical_bias="0.0" app:layout_constraintStart_toEndOf="@+id/button2"
             android:layout_marginStart="8dp" android:layout_marginLeft="8dp" android:layout_marginEnd="8dp"
-            app:layout_constraintEnd_toStartOf="@+id/Post" android:layout_marginRight="8dp"/>
+            app:layout_constraintEnd_toStartOf="@+id/Under" android:layout_marginRight="8dp"/>
 
     <Button
-            android:text="@string/post"
+            android:text="UnderGrad"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/Post"
+            android:id="@+id/Under"
             app:layout_constraintTop_toTopOf="@+id/toolbar"
             app:layout_constraintEnd_toEndOf="@+id/toolbar"
             android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
@@ -65,8 +65,8 @@
                     android:contentDescription="@string/logoschool"/>
             <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" android:id="@+id/textView9"
-                    android:text="@string/pre_requisite_yr_1"
+                    android:layout_height="wrap_content" android:id="@+id/POSTBACTEXT"
+                    android:text="@string/post_bac_pre_req"
                     android:textColor="@color/colorPrimaryDark" android:textStyle="bold"
                     app:fontFamily="@font/carter_one" android:textSize="24sp" android:gravity="center"
                     android:background="@color/colorheader" android:visibility="visible"/>
@@ -82,7 +82,7 @@
 
                 <TableRow android:layout_width="505dp" android:layout_height="369dp">
                     <TextView
-                            android:text="@string/t_b_test_health_form"
+                            android:text="@string/t_b_test_health"
                             android:layout_width="335dp"
                             android:layout_height="wrap_content"
                             android:id="@+id/Tb"
@@ -125,8 +125,8 @@
             </TableLayout>
             <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" android:id="@+id/textView11"
-                    android:text="@string/year_1_testing"
+                    android:layout_height="wrap_content" android:id="@+id/YR1POST"
+                    android:text="@string/post_bac_testing"
                     android:textColor="@color/colorPrimaryDark" android:textStyle="bold"
                     app:fontFamily="@font/carter_one" android:textSize="24sp" android:gravity="center"
                     android:background="@color/colorheader" android:visibility="visible"/>
@@ -141,8 +141,8 @@
                     android:layout_height="match_parent">
                 <TextView
                         android:layout_width="335dp"
-                        android:layout_height="wrap_content" android:id="@+id/CBEST2"
-                        android:text="@string/cbest" android:textColor="@color/colorPrimaryDark"
+                        android:layout_height="wrap_content" android:id="@+id/WAVIERCERT"
+                        android:text="@string/cset_or_subject_matter_waiver" android:textColor="@color/colorPrimaryDark"
                         app:fontFamily="@font/carter_one" android:background="@color/textbackground"
                         android:textStyle="bold"/>
                 <CheckBox
@@ -150,66 +150,172 @@
                         app:buttonTint="@color/colorPrimary"
                         android:layout_height="wrap_content" android:id="@+id/checkBox12" android:checked="false"/>
             </TableRow>
+            <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                <TextView
+                        android:layout_width="335dp"
+                        android:layout_height="wrap_content" android:id="@+id/CBESTPOST"
+                        android:text="@string/cbest"
+                        android:textColor="@color/colorPrimaryDark"
+                        app:fontFamily="@font/carter_one" android:background="@color/textbackground"
+                        android:textStyle="bold"/>
+                <CheckBox
+                        android:layout_width="match_parent"
+                        app:buttonTint="@color/colorPrimary"
+                        android:layout_height="wrap_content" android:id="@+id/checkBox50" android:checked="false"/>
+            </TableRow>
             <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" android:id="@+id/EDPlans"
+                    android:layout_height="wrap_content" android:id="@+id/POSTBACED"
                     android:textColor="@color/colorPrimaryDark" android:textStyle="bold"
                     app:fontFamily="@font/carter_one" android:textSize="24sp" android:gravity="center"
                     android:background="@color/colorheader" android:visibility="visible"
-                    android:text="@string/year_1_eductional_plan"/>
+                    android:text="@string/post_bac_ed_credential_course_requirements"/>
             <TableLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
+                <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                    <TextView
+                            android:layout_width="335dp"
+                            android:layout_height="wrap_content" android:id="@+id/AdvisingSESSPOST"
+                            android:text="@string/advising_session"
+                            android:textColor="@color/colorPrimaryDark"
+                            app:fontFamily="@font/carter_one" android:background="@color/textbackground"
+                            android:textStyle="bold"/>
+                    <CheckBox
+                            android:layout_width="match_parent"
+                            app:buttonTint="@color/colorPrimary"
+                            android:layout_height="wrap_content" android:id="@+id/checkBox51" android:checked="false"/>
+                </TableRow>
+                <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                    <TextView
+                            android:layout_width="335dp"
+                            android:layout_height="wrap_content" android:id="@+id/EDUC364"
+                            android:text="@string/educ_364"
+                            android:textColor="@color/colorPrimaryDark"
+                            app:fontFamily="@font/carter_one" android:background="@color/textbackground"
+                            android:textStyle="bold"/>
+                    <CheckBox
+                            android:layout_width="match_parent"
+                            app:buttonTint="@color/colorPrimary"
+                            android:layout_height="wrap_content" android:id="@+id/checkBox52" android:checked="false"/>
+                </TableRow>
                 <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
                     <TextView
-                            android:text="@string/align_undergrad"
+                            android:text="@string/educ_350"
                             android:layout_width="335dp"
                             android:layout_height="wrap_content"
-                            android:id="@+id/Align"
+                            android:id="@+id/EDUC350"
                             android:background="@color/textbackground"
                             app:fontFamily="@font/carter_one" android:textColor="@color/colorPrimaryDark"
                             android:textStyle="bold" android:textAllCaps="false"/>
                     <CheckBox
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content" android:id="@+id/checkBox13"
+                            android:layout_height="wrap_content" android:id="@+id/checkBox54"
                             android:textColor="@color/colorPrimaryDark"
                             app:buttonTint="@color/colorPrimary"
                             android:checked="false"/>
                 </TableRow>
                 <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
                     <TextView
-                            android:text="@string/u_s_constitution"
+                            android:text="@string/educ_422"
                             android:layout_width="335dp"
                             android:layout_height="wrap_content"
-                            android:id="@+id/USCON"
+                            android:id="@+id/EDUC422"
                             android:background="@color/textbackground"
                             app:fontFamily="@font/carter_one" android:textColor="@color/colorPrimaryDark"
                             android:textStyle="bold" android:textAllCaps="false"/>
                     <CheckBox
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content" android:id="@+id/checkBox14"
+                            android:layout_height="wrap_content" android:id="@+id/checkBox55"
                             android:textColor="@color/colorPrimaryDark"
                             app:buttonTint="@color/colorPrimary"
                             android:checked="false"/>
                 </TableRow>
                 <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
                     <TextView
+                            android:text="@string/USCONpostbac"
+                            android:layout_width="335dp"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/USCONPOST"
+                            android:background="@color/textbackground"
+                            app:fontFamily="@font/carter_one" android:textColor="@color/colorPrimaryDark"
+                            android:textStyle="bold" android:textAllCaps="false"/>
+                    <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:id="@+id/checkBox56"
+                            android:textColor="@color/colorPrimaryDark"
+                            app:buttonTint="@color/colorPrimary"
+                            android:checked="false"/>
+                </TableRow>
+                <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                    <TextView
+                            android:layout_width="335dp"
+                            android:layout_height="wrap_content" android:id="@+id/HEALTHPOST"
                             android:text="@string/health_education"
-                            android:layout_width="335dp"
-                            android:layout_height="wrap_content"
-                            android:id="@+id/HEALTHED"
-                            android:background="@color/textbackground"
-                            app:fontFamily="@font/carter_one" android:textColor="@color/colorPrimaryDark"
-                            android:textStyle="bold" android:textAllCaps="false"/>
-                    <CheckBox
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content" android:id="@+id/checkBox15"
                             android:textColor="@color/colorPrimaryDark"
+                            app:fontFamily="@font/carter_one" android:background="@color/textbackground"
+                            android:textStyle="bold"/>
+                    <CheckBox
+                            android:layout_width="match_parent"
                             app:buttonTint="@color/colorPrimary"
+                            android:layout_height="wrap_content" android:id="@+id/checkBox57"
                             android:checked="false"/>
                 </TableRow>
             </TableLayout>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/POSTLANG"
+                    android:text="@string/post_bac_prep_for_lang"
+                    android:textColor="@color/colorPrimaryDark" android:textStyle="bold"
+                    app:fontFamily="@font/carter_one" android:textSize="24sp" android:gravity="center"
+                    android:background="@color/colorheader" android:visibility="visible"/>
+            <View
+                    android:id="@+id/divider19"
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+
+                    android:visibility="visible" android:background="@color/colorPrimary"/>
+            <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                <TextView
+                        android:layout_width="335dp"
+                        android:layout_height="wrap_content" android:id="@+id/BILIAUTHPOST"
+                        android:text="@string/bilingual_authorization_program"
+                        android:textColor="@color/colorPrimaryDark"
+                        app:fontFamily="@font/carter_one" android:background="@color/textbackground"
+                        android:textStyle="bold"/>
+                <CheckBox
+                        android:layout_width="match_parent"
+                        app:buttonTint="@color/colorPrimary"
+                        android:layout_height="wrap_content" android:id="@+id/checkBox60"
+                        android:checked="false"/>
+            </TableRow>
+            <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                <TextView
+                        android:layout_width="335dp"
+                        android:layout_height="wrap_content" android:id="@+id/EDUCTIONSPECPOST"
+                        android:text="Education Specialist Program"
+                        android:textColor="@color/colorPrimaryDark"
+                        app:fontFamily="@font/carter_one" android:background="@color/textbackground"
+                        android:textStyle="bold"/>
+                <CheckBox
+                        android:layout_width="match_parent"
+                        app:buttonTint="@color/colorPrimary"
+                        android:layout_height="wrap_content" android:id="@+id/checkBox61"
+                        android:checked="false"/>
+            </TableRow>
         </LinearLayout>
     </ScrollView>
 </android.support.constraint.ConstraintLayout>
