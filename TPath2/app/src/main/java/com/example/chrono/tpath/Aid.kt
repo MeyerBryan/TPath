@@ -40,6 +40,11 @@ class Aid : AppCompatActivity() {
             val intent = Intent(this, Checklist::class.java)
             startActivity(intent)
         }
+
+        INFO.setOnClickListener {
+            val intent = Intent(this, Information::class.java)
+            startActivity(intent)
+        }
     }
 
 }

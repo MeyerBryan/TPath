@@ -89,10 +89,10 @@
             android:layout_marginRight="8dp" android:layout_marginBottom="8dp"
             app:layout_constraintBottom_toBottomOf="parent"/>
     <Button
-            android:text="@string/calendar"
+            android:text="INFO"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/CAL" app:layout_constraintStart_toStartOf="@+id/toolbar3"
+            android:id="@+id/INFO" app:layout_constraintStart_toStartOf="@+id/toolbar3"
             android:layout_marginLeft="8dp" android:layout_marginStart="8dp"
             app:layout_constraintBottom_toBottomOf="@+id/toolbar3" app:layout_constraintTop_toTopOf="@+id/toolbar3"
             android:background="@color/colorPrimaryDark" android:textColor="@color/colorAccent"/>
@@ -105,10 +105,10 @@
             app:layout_constraintTop_toTopOf="@+id/toolbar3" android:layout_marginBottom="8dp"
             app:layout_constraintBottom_toBottomOf="parent" android:layout_marginEnd="8dp"
             app:layout_constraintEnd_toStartOf="@+id/POST" android:layout_marginRight="8dp"
-            app:layout_constraintStart_toEndOf="@+id/CAL" android:layout_marginStart="8dp"
+            app:layout_constraintStart_toEndOf="@+id/INFO" android:layout_marginStart="8dp"
             android:layout_marginLeft="8dp"/>
     <Button
-            android:text="@string/post"
+            android:text="Post"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/POST" android:background="@color/colorPrimaryDark"

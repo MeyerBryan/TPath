@@ -36,8 +36,11 @@
         </activity>
         <activity android:name=".Cal">
         </activity>
-        <activity android:name=".Postgrad1"
-        android:label="Post-Baccalaureate">
+        <activity
+                android:name=".Postgrad1"
+                android:label="Post-Baccalaureate">
+        </activity>
+        <activity android:name=".Information">
         </activity>
     </application>
 

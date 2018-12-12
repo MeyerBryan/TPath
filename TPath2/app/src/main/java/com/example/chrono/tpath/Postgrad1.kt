@@ -20,5 +20,10 @@ class Postgrad1 : AppCompatActivity() {
             val intent = Intent(this, Checklist::class.java)
             startActivity(intent)
         }
+
+        infobtn.setOnClickListener {
+            val intent = Intent(this, Information::class.java)
+            startActivity(intent)
+        }
     }
 }

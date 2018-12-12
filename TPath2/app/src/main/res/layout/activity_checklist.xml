@@ -24,7 +24,7 @@
             app:layout_constraintBottom_toBottomOf="@+id/toolbar" app:layout_constraintStart_toStartOf="@+id/toolbar"
             android:layout_marginLeft="8dp" android:layout_marginStart="8dp"
             app:layout_constraintTop_toTopOf="@+id/toolbar" android:background="@color/colorPrimaryDark"
-            android:text="@string/calendar" android:textColor="@color/colorAccent" android:layout_marginBottom="8dp"
+            android:text="Info" android:textColor="@color/colorAccent" android:layout_marginBottom="8dp"
     />
     <Button
             android:text="@string/aid"
@@ -38,7 +38,7 @@
             app:layout_constraintEnd_toStartOf="@+id/Post" android:layout_marginRight="8dp"/>
 
     <Button
-            android:text="@string/post"
+            android:text="Post"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/Post"
