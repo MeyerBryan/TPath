@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">TPath</string>
+    <string name="calendar">Calendar</string>
+    <string name="aid">Aid</string>
+    <string name="post">Post</string>
+    <!-- Strings for Undergraduate checklist-->
+    <string name="t_b_test_health_form"><![CDATA[T>B Test & Health Form]]></string>
+    <string name="pre_requisite_yr_1">Pre-requisite YR-1</string>
+    <string name="certificate_of_clearance_fingerprints">Certificate of Clearance (fingerprints)</string>
+    <string name="cpr_training_certificate">CPR Training Certificate</string>
+    <string name="logoschool">logoschool</string>
+    <string name="togglebutton">ToggleButton</string>
+    <string name="checkbox">CheckBox</string>
+    <string name="year_1_testing">Year 1 Testing</string>
+    <string name="cbest">CBEST</string>
+    <string name="year_1_educational_plan">Year 1 Educational Plan</string>
+    <string name="align_undergrad">Align Undergrad</string>
+    <string name="u_s_constitution">U.S. Constitution</string>
+    <string name="health_education">Health Education</string>
+    <string name="year_1_span"> Preparation for Spanish/English Biligual Authorization </string>
+    <string name="span_250">SPAN 250</string>
+    <string name="pre_requisite_yr_2"> Pre-requisite YR-2 </string>
+    <string name="year_2_test_health_form"> T.B. Test and Health Form </string>
+    <string name="certificate_of_clearance"> Certificate of Clearance </string>
+    <string name="year_2_testing"> Year 2 Testing </string>
+    <string name="cset_prep"> CSET Prep </string>
+    <string name="year_2_educational_plan">Year 2 Educational Plan</string>
+    <string name="advising_session"> Attend an advising session </string>
+    <string name="ed_364"> EDUC 364 </string>
+    <string name="year_3_testing"> Year 3 Testing </string>
+    <string name="year_3_educational_plan"> Year 3 Educational Plan </string>
+    <string name="ed_350"> EDUC 350 </string>
+    <string name="year_3_prep_bilingual"> Year 3 Preparation for Bilingual Authorization and for ED Specialists </string>
+    <string name="biligual_auth_program"> Biligual Authorization Program </string>
+    <string name="ed_specialist_program"> Education Specialist Program </string>
+    <string name="renew_t_b_test_health_forms"> Renewals T.B. Test and Health form </string>
+    <string name="pre_requisite_yr_4"> Pre-requisite YR-4 </string>
+    <string name="letters_of_recommendation"> Obtain 3 Letters of Recommendation </string>
+    <string name="admission_interview"> Admission Interview </string>
+    <string name="year_4_testing"> Year 4 Testing </string>
+    <string name="retake_cset_as_needed"> Retake CSET as needed to pass </string>
+    <string name="year_3_educational_plan"> Year 4 Educational Plan </string>
+    <string name="year_4_prep_bilingual"> YEAR 4 Preparation for Bilingual Authorization and for ED Specialists </string>
+
+    <string name="title_activity_tpathlogin">Sign in</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+    <string name="undergrad">UnderGrad</string>
+    <string name="financial_aid">Financial Aid</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="title_activity_cal">Cal</string>
+</resources>
